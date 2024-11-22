@@ -13,7 +13,7 @@ public class filosofo extends Thread
             pasti++;
             System.out.print("Filosofo "+ i+" ha mangiato: " + pasti + "volte.\n");
             m.rilasciaForchette(i);
-            sleep(2500);
+            sleep(2000);
         }
     }catch(InterruptedException e){}
     }
